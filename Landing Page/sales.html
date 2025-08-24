@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sales Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-container sticky-top">
+        <div class="img-search">
+            <img src="../Photos/Medi-care.jpg" width="150px" alt="...">
+            <div class="nav-form d-flex">
+                <select value="" class="dropdown">
+                    <option name="medicine" id="">All</option>
+                    <option name="medicine" id="">Medicine</option>
+                    <option name="location" id="">Center</option>
+                </select>
+                <input type="text" placeholder="Search for Medicine and Welness Product">
+                <button><i class="bi bi-search text-white"></i></button>
+            </div>
+            <div class="links">
+                <div>
+                    <a href="../Landing Page/index.html">Home</a>
+                </div>
+                <div>
+                    <i class="bi bi-cart4"></i>
+                    <a href="#cart-details">Cart</a>
+                </div>
+                <div>
+                    <i class="bi bi-person-circle"></i>
+                    <a href="../Forms/login.html">Sign in</a>/<a href="../Forms/register.html">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero-section -->
+    <div class="hero-section">
+        <div class="container-slide">
+        </div>
+        <h2 class="text-center position-absolute text-white">Prescription Medicines at discounted rates, home
+            delivered.<br>
+            Order Medicines Now.</h2>
+    </div>
+    <div class="shop d-flex flex-column justify-content-center align-items-center mt-5">
+        <h2 class="heading ps-1 opacity-75">Shop by Category</h2>
+        <div class="shop-category ">
+            <div class="category">
+                <img src="../Photos/Medicines_1.png" width="110px">
+                <p class="text-bold"><a href="#Product-1"> Medicines</a></p>
+            </div>
+            <div class="category">
+                <img src="../Photos/medicine_2.jpg" width="110px">
+                <p class="text-bold"><a href="#Product-2"> COVID Essentials</a></p>
+            </div>
+            <div class="category">
+                <img src="../Photos/healthcare_device.png" width="110px" class="rounded-circle">
+                <p class="text-bold"><a href="#Product-3"> Healthcare Device</a></p>
+            </div>
+            <div class="category">
+                <img src="../Photos/babycare.png" width="110px" class="rounded-circle">
+                <p class="text-bold"><a href="#Product-4"> Baby Care</a></p>
+            </div>
+            <div class="category">
+                <img src="../Photos/vitamins_protein.png" width="110px" class="rounded-circle">
+                <p class="text-bold"><a href="#Product-5"> Vitamins and Proteins</a></p>
+            </div>
+            <div class="category">
+                <img src="../Photos/Ayurveda.png" width="110px" class="rounded-circle">
+                <p class="text-bold"><a href="Product-6"> Ayurveda</a></p>
+            </div>
+            <div class="category">
+                <img src="../Photos/personal_care.png" width="110px" class="rounded-circle">
+                <p class="text-bold"><a href="#Product-7"> Personal Care</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-container add-cart d-flex flex-column justify-content-center align-items-center">
+        <div class="new-arrival my-3">
+            <h2 class="ps-1 opacity-75 pb-1 me-auto mt-5">New Arrival</h2>
+            <div class="arrival-items" id="Product-1">
+                <div class="items py-2">
+                    <img src="../Photos/item-1.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Similac Isomil Soy Infant<br>Formula 400 gm
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 645.00</span>
+                            <span class="text-success">60%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 500.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+                </div>
+                <div class="items py-2">
+                    <img src="../Photos/product-2.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Softovac-SF Bowel Regulator<br> Powder 100 gm
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 601.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 550.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+                </div>
+                <div class="items py-2">
+                    <img src="../Photos/item-3.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Nivea Pearl & Beauty Deodorant Roll-on 50 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 400.00</span>
+                            <span class="text-success">20%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 220.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+                </div>
+                <div class="items py-2">
+                    <img src="../Photos/item-4.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">GNC Herbal Plus Milk <br>Thistle 250mg 90 Capsules
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 300.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 150.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+                </div>
+                <div class="items py-2">
+                    <img src="../Photos/item-5.jpg" width="150px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Pure Nutrition Iron Tablet
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 65.00</span>
+                            <span class="text-success">5%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 50.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+                </div>
+                <div class="items py-2">
+                    <img src="../Photos/item-6.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Dabur Honitus Herbal Cough <br>Remedy 100 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 350.00</span>
+                            <span class="text-success">30%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 299.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrival my-3">
+            <h2 class="ps-1 opacity-75 pb-1 mt-5 me-auto" style="width: 603px;">SUPPLEMENT OF THE WEEK | VITAMIN C</h2>
+            <div class="arrival-items" id="Product-2">
+                <div class="items py-2">
+                    <img src="../Photos/item-7.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Vitalize Multivitamin <br>Effervescent Tablet Orange
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 780.00</span>
+                            <span class="text-success">30%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 500.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-8.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Natural Vitamin C & Zinc<br> Orange Effervescent Tablet
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 605.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 505.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-9.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Limcee Chewable Tablet Orange
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 55.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 20.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-10.jpg" width="156px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Celin + Chewable Tablet
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 45.00</span>
+                            <span class="text-success">4%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 24.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-12.jpg" width="155px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Hhomega Capsule
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 40.00</span>
+                            <span class="text-success">20%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 10.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-13.jpg" width="155px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Celin 500 Tablet
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 42.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 38.10</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="new-arrival my-3">
+            <h2 class="ps-1 opacity-75 pb-1 mt-5 me-auto" style="width: 220px;">Trending Now</h2>
+            <div class="arrival-items" id="Product-3">
+
+                <div class="items py-2">
+                    <img src="../Photos/item-14.jpg" width="115px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Glucon-D Instant Energy <br>Health Drink Tangy Orange
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 650.00</span>
+                            <span class="text-success">20%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 450.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-15.jpg" width="110px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Betadine 2% Gargle Mint
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 65.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 45.20</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-16.jpg" width="155px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Kojic Cream
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 399.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 199.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-17.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Ecomoist Ultra Eye Drop
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 145.00</span>
+                            <span class="text-success">20%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 120.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-18.jpeg" width="57px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Nivea Men Shower Gel Power Fresh 250 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 199.00</span>
+                            <span class="text-success">5%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 189.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-19.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Depura 60000 IU Vitamin D3,<br>5 ml Oral Solution
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 109.07</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 98.74</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="new-arrival my-3">
+            <h2 class="ps-1 opacity-75 pb-1 mt-5 me-auto" style="width: 640px;">HANDPICKED PRODUCTS FOR YOUR BABY</h2>
+            <div class="arrival-items" id="Product-4">
+
+                <div class="items py-2">
+                    <img src="../Photos/item-20.jpg" width="120px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Mothercare All We Know Baby<br> Milk Bath, 300 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 399.00</span>
+                            <span class="text-success">3%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 389.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-21.jpg" width="120px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Enfamil A+ Infant Formula,<br> Stage 1, 400 gm Tin
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 849.00</span>
+                            <span class="text-success">2%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 832.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-22.jpg" width="100px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Chicco Toothbrush for <br>6 months to 2 years Blue
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 645.00</span>
+                            <span class="text-success">60%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 500.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-23.jpg" width="150px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Himalaya Baby Powder 400 gm
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 610.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 589.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-24.jpg" width="200px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Cetaphil Baby Daily <br>Lotion 400 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 795.00</span>
+                            <span class="text-success">5%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 755.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-25.jpg" width="95px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Sebamed Baby Multi Protect Sun Lotion SPF
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 1475.00</span>
+                            <span class="text-success">5%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 1399.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="new-arrival my-3">
+            <h2 class="ps-1 opacity-75 pb-1 mt-5 me-auto" style="width: 330px;">DIABETIC MEDICINES</h2>
+            <div class="arrival-items" id="Product-5">
+                <div class="items py-2">
+                    <img src="../Photos/item-26.jpg" width="160px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">BGR 34 Tablet
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 600.00</span>
+                            <span class="text-success">12%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 528.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-27.jpg" width="140px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Baidyanath Madhumehari Yog with Gold Tablet
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 675.00</span>
+                            <span class="text-success">3%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 650.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-28.jpg" width="75px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Biogetica Diasolve Tablet
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 699.00</span>
+                            <span class="text-success">7%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 650.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-29.jpg" width="230px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Dabur Madhu Rakshak,<br> 100 gm
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 210.00</span>
+                            <span class="text-success">10%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 189.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-30.jpg" width="145px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Dabur Madhu Rakshak,<br> 250 gm
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 415.00</span>
+                            <span class="text-success">9%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 379.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-31.jpg" width="165px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Dabur GlycoDab Tablet
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 360.00</span>
+                            <span class="text-success">6%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 340.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="new-arrival my-3">
+            <h2 class="ps-1 opacity-75 pb-1 mt-5 me-auto">Face Care</h2>
+            <div class="arrival-items" id="Product-7">
+
+                <div class="items py-2">
+                    <img src="../Photos/item-32.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Himalaya Purifying Neem <br>Face Wash 100 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 150.00</span>
+                            <span class="text-success">70%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 140.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-33.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Mamaearth Vitamin C <br>Face Wash, 100 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 6259.00</span>
+                            <span class="text-success">8%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 238.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-34.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Mamaearth Aqua Glow <br>Face Wash, 100 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 399.00</span>
+                            <span class="text-success">5%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 380.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-35.jpg" width="150px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Acnelak 4in1 Pimple Clear <br>Face Wash 100 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 360.00</span>
+                            <span class="text-success">5%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 342.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-36.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">Mamaearth Charcoal <br>Face Wash, 100 ml
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 259.00</span>
+                            <span class="text-success">8%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 238.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+
+                </div>
+
+                <div class="items py-2">
+                    <img src="../Photos/item-37.jpg" width="130px">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-center my-3 fs-6">DS Acne Face Wash<br> 100 gm
+                        </p>
+                        <span class="text-muted">MRP <span class="text-decoration-line-through">₹ 454.00</span>
+                            <span class="text-success">5%
+                                OFF</span></span>
+                        <span class="fw-bold">₹ 431.00</span>
+                    </div>
+                    <button class="btn btn-success">Add to Cart &nbsp&nbsp<i
+                            class="bi bi-cart3 text-warning"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-container add-cart d-flex flex-column justify-content-center align-items-center"
+        id="cart-details">
+        <div class="new-arrival my-3 bg-secondary rounded px-3 py-3 d-flex flex-column align-items-start">
+            <h2 class="ps-1 opacity-75 pb-1 mx-auto text-white">Cart items</h2>
+            <div class="arrival-items remove-item" id="Product-1">
+            </div>
+            <h3 class="text-white opacity-50 mt-5 mx-auto">No item is Added...</h3>
+            <div class="mx-auto pay">
+                <a href="../Forms/payment.html"><button class="d-none btn btn-success my-5">Pay Now</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Health-corner -->
+
+    <div class="container-fluid">
+        <div class="col-12 Testimonials my-5 text-center">
+            <h2 class="h1 d-inline">Health Corner</h2>
+        </div>
+        <div class="row my-5 d-flex justify-content-evenly">
+            <div class="col-lg-3 col-md-5 port-card px-0 py-0">
+                <img src="../Photos/health-1.jpg" alt="app-1" width="450px">
+                <div class="app-details pt-4 ps-3">
+                    <h4>Hair Loss - Symptoms and Causes</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 port-card  px-0 py-0">
+                <div>
+                    <img src="../Photos/health-2.jpg" alt="app-1" class="img-fluid">
+                </div>
+                <div class="app-details pt-4 ps-3 pb-2">
+                    <h4>Diabetes in India<h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 port-card  px-0 py-0">
+                <div>
+                    <img src="../Photos/health-3.jpg" alt="app-1" class="img-fluid">
+                </div>
+                <div class="app-details pt-4 pb-2 ps-3">
+                    <h4>Remedies to lower your blood sugar level</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 port-card  px-0 py-0">
+                <div>
+                    <img src="../Photos/health-4.jpeg" alt="app-1" class="img-fluid">
+                </div>
+                <div class="app-details pt-4 pb-5 ps-3">
+                    <h4>How to manage winter Ashthma</h4>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 port-card  px-0 py-0">
+                <div>
+                    <img src="../Photos/health-5.jpeg" alt="app-1" class="img-fluid">
+                </div>
+                <div class="app-details pt-4 ps-3">
+                    <h4>How to manage winter Ashthma<h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 port-card  px-0 py-0">
+                <div>
+                    <img src="../Photos/health-6.jpg  " alt="app-1" class="img-fluid">
+                </div>
+                <div class="app-details pt-4 ps-3">
+                    <h4>Pollution and skincare</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-3 border-top border-bottom bg-secondary">
+        <div class="Contact">
+            <i class="bi bi-facebook h4 text-primary"></i>
+            <i class="bi bi-instagram h4 text-danger"></i>
+            <i class="bi bi-twitter h4 text-info"></i>
+            <i class="bi bi-linkedin h4 text-primary"></i>
+        </div>
+        <div class="policy">
+            <a href="aboutus.html">Contact Us</a>
+            <a href="https://www.medicalindia.in/home/terms#:~:text=You%20agree%20to%20use%20the,required%20and%20compliance%20with%20law." target="_blank">Terms and Conditions</a>
+            <a href="https://pharmacyforme.org/privacy-policy/" target="_blank">Privacy Policy</a>
+            <a href="https://www.fda.gov/drugs/besaferx-your-source-online-pharmacy-information/besaferx-frequently-asked-questions-faqs" target="_blank">FAQ's</a>
+        </div>
+    </footer>
+
+    <div class="cart-number">
+        <a href="#cart-details"><button class="btn btn-primary rounded-circle py-2"><i
+                    class="bi bi-cart2 h3 text-white"></i><p class="text-white rounded-circle px-3 py-2 bg-danger">0</p></button></a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>

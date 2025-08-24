@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successfull</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="row mt-5 d-none payment">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <i class="bi bi-check-circle text-success" style="font-size: 150px;"></i>
+        </div>
+        <div class="col-12 d-flex flex-column align-items-center row-gap-3">
+            <h1>Transaction Completed Successfully</h1>
+            <h4>Thank you for your billing</h4>
+            <a href="/pharmacy/home"><button class="btn btn-success rounded-pill px-4 py-3"><i
+                        class="bi bi-envelope-at"></i>&nbsp&nbsp We Just Mail Your Order</button></a>
+        </div>
+    </div>
+    <div class="row loader-pay">
+        <div class="col-12 mt-5 d-flex justify-content-center align-items-center">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const payment = document.querySelector('.payment');
+        const loader = document.querySelector('.loader-pay');
+        window.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                payment.classList.remove('d-none');
+                loader.classList.add('d-none');
+            }, 3000);
+        })
+    </script>
+</body>
+
+</html>
